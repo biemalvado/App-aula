@@ -6,9 +6,7 @@ export default function Index() {
     <View style={styles.container}>
       <Text style={styles.text}>Home screen</Text>
 
-      <Link href="/about" style={styles.link}>
-        Go to Profile
-      </Link>
+      
     </View>
   );
 }
@@ -25,8 +23,5 @@ const styles = StyleSheet.create({
     fontSize: 18,
     marginBottom: 10,
   },
-  link: {
-    color: "#007AFF",
-    fontSize: 16,
-  },
+  
 });
